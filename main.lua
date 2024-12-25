@@ -19,8 +19,6 @@ while true do
   if shape == "1" then
     print("Enter Length:") 
     local length=io.read()
-    print("Enter Width:")
-    local width=io.read()
     print("Enter S.I unit:")
     local unit=io.read()
     print("The Area Of The Square Is", length*width ..unit.. "²")
