@@ -67,11 +67,9 @@ end
   if figure == "1" then
     print("Enter Length:") 
     local length=io.read()
-    print("Enter Width")
-    local width=io.read()
     print("Enter S.I unit")
     local unit=io.read()
-    print("The Perimeter Of The Square Is", length+length+width+width ..unit)
+    print("The Perimeter Of The Square Is", length+length+length+length ..unit)
   
   --Perimeter Of Rectangle
   elseif figure == "2" then
