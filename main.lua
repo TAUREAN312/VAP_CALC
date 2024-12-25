@@ -1,10 +1,17 @@
 --Request for input
-print("Area(1), Perimeter(2) or Volume(3): ")
+print([[
+  [1] Area 
+  [2] Perimeter 
+  [3] Volume]])
 local input = io.read()
 
 --Area
 if input == "1" then
-  print("Which Plane Figure {Square(1), Rectangle(2), Triangle(3) or Circle(4)}")
+  print([[Which Plane Figure 
+    [1] Square
+    [2] Rectangle
+    [3] Triangle
+    [4] Circle]])
   local shape=io.read()
   
     --Area Of Square
@@ -52,7 +59,9 @@ end
   
   --Perimeter
 if input == "2" then
-    print("Which Plane Figure {Square(1), Rectangle(2)}")
+    print([[Which Plane Figure 
+    [1] Square
+    [2] Rectangle]])
    local figure=io.read()
   
     --Perimeter Of Square
@@ -82,7 +91,13 @@ end
 
   --Volume
 if input == "3" then
-  print("Which 3d Object {Cube(1), Cuboid(2), Cone(3), Cylinder(4), Sphere(5) or Pyramid(6)}")  
+  print([[Which 3d Object 
+    [1] Cube
+    [2] Cuboid
+    [3] Cone
+    [4] Cylinder 
+    [5] Sphere
+    [6] Pyramid(6) ]])  
   local object=io.read()
   
   --Volume Of Cube
@@ -143,7 +158,9 @@ elseif object == "5" then
   --Volume Of Pyramid
   
 elseif object == "6" then
-  print("What Type Of Pyramid Is It (Square(1) or Triangular(2)):")
+  print([[What Type Of Pyramid Is It 
+      [1] Square
+      [2] Triangular]])
   local pyramid=io.read()
   
   --Volume Of Square Pyramid
