@@ -105,13 +105,9 @@ end
   if object == "1" then
     print("Enter Length:") 
     local length=io.read()
-    print("Enter Width:")
-    local width=io.read()
-    print("Enter Height:")
-    local height=io.read()
     print("Enter S.I unit:")
     local unit=io.read()
-    print("The Volume Of The Cube Is", length*width*height ..unit.. "³")
+    print("The Volume Of The Cube Is", length*length*length ..unit.. "³")
   
   --Volume Of Cuboid 
   elseif object == "2" then
