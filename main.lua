@@ -21,7 +21,7 @@ while true do
     local length=io.read()
     print("Enter S.I unit:")
     local unit=io.read()
-    print("The Area Of The Square Is", length*width ..unit.. "²")
+    print("The Area Of The Square Is", length*length ..unit.. "²")
   
   --Area Of Rectangle
   elseif shape == "2" then
