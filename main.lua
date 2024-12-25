@@ -98,7 +98,7 @@ end
     [3] Cone
     [4] Cylinder 
     [5] Sphere
-    [6] Pyramid(6) ]])  
+    [6] Pyramid]])  
     local object=io.read()
   
   --Volume Of Cube
