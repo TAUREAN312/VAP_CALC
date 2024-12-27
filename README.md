@@ -1,9 +1,9 @@
-VAP_CALC is a VOLUME, AREA or PERIMETER CALCULATOR.lua that asks the user what he wants to calculate (area, volume or perimeter).
+VAP_CALC is a VOLUME, AREA or PERIMETER CALCULATOR that asks the user what he wants to calculate (area, volume or perimeter).
 It then proceeds to know the plane figure or 3d object the user wants to calculate.
 With the information entered by the user using the scripts valid command, this calculator/script evaluates and outputs the result.
 
  
- HOW TO USE AREA, PERIMETER OR VOLUME CALCULATOR:
+ HOW TO USE VOLUME, AREA OR PERIMETER CALCULATOR:
  -This calculator doesn't accept strings or char (letters or words) but only numbers except for S.I units. These numbers are attached to the plane figures when the calculator poses a question.
 
  example: Which Plane Figure 
